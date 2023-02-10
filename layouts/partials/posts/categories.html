@@ -1,6 +1,5 @@
-{{ with .Params.categories }}
-  {{ $category := partial "func/GetTaxonomy" (dict "slug" . "taxonomy" "categories")  }}
-  {{ with $category }}
+{{ with .GetTerms "categories" }}
+  {{ range . }}
     <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
   {{ end }}
 {{ end }}
