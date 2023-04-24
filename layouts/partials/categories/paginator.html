@@ -2,4 +2,4 @@
 {{ if partial "func/HasImageHero" . }}
   {{ $atf = false }}
 {{ end }}
-{{ partial "tags/items" (dict "pages" .Pages.ByTitle "abovethefold" $atf) }}
+{{ partial "categories/items" (dict "pages" .Pages.ByTitle "abovethefold" $atf) }}
