@@ -16,3 +16,8 @@ permalinks:
   categories: /news/:slug/
 taxonomies:
   category: categories
+
+params:
+  admin:
+    collections:
+      posts_categories: true
