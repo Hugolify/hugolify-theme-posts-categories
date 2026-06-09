@@ -6,7 +6,9 @@ Edit `config/_default/module.yaml` to install the `hugolify-theme-posts-categori
 
 ```yml
 imports:
-  - path: github.com/hugolify/hugolify-theme-posts-categories
+  - path: github.com/hugolify/hugolify-theme-posts-categories/v2
+  - path: github.com/hugolify/hugolify-theme-posts/v2 # required
+  - path: github.com/hugolify/hugolify-theme/v2 # required
 ```
 
 ## Documentation
