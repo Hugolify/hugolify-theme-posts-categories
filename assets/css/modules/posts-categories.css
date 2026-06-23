@@ -1,0 +1,12 @@
+/* css/modules/posts-categories.css — hugolify-theme-posts-categories entry point */
+
+/* Tokens */
+@import '../tokens/posts-categories.css';
+
+/* Components */
+@import '../components/posts-category.css';
+@import '../components/posts-categories.css';
+
+/* Pages */
+@import '../pages/posts-category.css';
+@import '../pages/posts-categories.css';

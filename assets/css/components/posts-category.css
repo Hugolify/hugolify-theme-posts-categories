@@ -1,0 +1,11 @@
+/* components/posts-category.css */
+/*
+ * Usage: <article class="item category">
+ */
+@layer components {
+  .category {
+    .btn {
+      display: none;
+    }
+  }
+}
