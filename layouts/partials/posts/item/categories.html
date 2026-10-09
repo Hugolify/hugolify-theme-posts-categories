@@ -1,5 +1,5 @@
 {{ with .GetTerms "categories" }}
   {{ range . }}
-    <span class="category" itemprop="articleSection">{{ .Title }}</span>
+    <span class="category">{{ .Title }}</span>
   {{ end }}
 {{ end }}
